@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Operator:</strong> Logical AND (&&)</p>
+            <p class="real-use">Real Life Use: Login systems, authentication</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Login System</h1>
+            <p class="hint">Hint: username: admin, password: 1234</p>
+            
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+
+            <button onclick="checkLogin()">Login</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

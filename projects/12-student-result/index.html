@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Operators:</strong> +, /, %</p>
+            <p><strong>Condition:</strong> Multiple conditions, range checking</p>
+            <p class="real-use">Real Life Use: Academic systems, result processing</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Student Result System</h1>
+            
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Student Name">
+                <div class="subjects">
+                    <input type="number" id="sub1" placeholder="Subject 1">
+                    <input type="number" id="sub2" placeholder="Subject 2">
+                    <input type="number" id="sub3" placeholder="Subject 3">
+                    <input type="number" id="sub4" placeholder="Subject 4">
+                    <input type="number" id="sub5" placeholder="Subject 5">
+                </div>
+            </div>
+
+            <button onclick="calculateResult()">Show Result</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="result-card" id="resultCard">
+                <div class="result-header">
+                    <h2>Result Card</h2>
+                    <p id="studentName"></p>
+                </div>
+                <div class="marks-table">
+                    <div class="mark-row"><span>Subject 1</span><span id="mark1">-</span></div>
+                    <div class="mark-row"><span>Subject 2</span><span id="mark2">-</span></div>
+                    <div class="mark-row"><span>Subject 3</span><span id="mark3">-</span></div>
+                    <div class="mark-row"><span>Subject 4</span><span id="mark4">-</span></div>
+                    <div class="mark-row"><span>Subject 5</span><span id="mark5">-</span></div>
+                </div>
+                <div class="result-footer">
+                    <div class="total"><span>Total</span><span id="total">-</span></div>
+                    <div class="percentage"><span>Percentage</span><span id="percentage">-</span></div>
+                    <div class="grade" id="grade">-</div>
+                    <div class="status" id="status">-</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

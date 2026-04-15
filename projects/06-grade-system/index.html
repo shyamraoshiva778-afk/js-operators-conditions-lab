@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Condition:</strong> Multiple conditions & range checking</p>
+            <p class="real-use">Real Life Use: Academic grading, performance reviews</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Grade System</h1>
+            
+            <div class="input-group">
+                <input type="number" id="marks" placeholder="Enter marks (0-100)">
+            </div>
+
+            <button onclick="checkGrade()">Get Grade</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

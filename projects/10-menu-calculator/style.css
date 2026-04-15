@@ -1,0 +1,153 @@
+.project-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.project-box h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #00d9ff;
+}
+
+.menu {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item span:last-child {
+    color: #00ff88;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.input-group select,
+.input-group input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.input-group select option {
+    background: #1a1a2e;
+}
+
+.input-group input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #00d9ff, #00ff88);
+    color: #1a1a2e;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 217, 255, 0.3);
+}
+
+button.reset {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+button.reset:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.output {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output.success {
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid #00ff88;
+    color: #00ff88;
+}
+
+.output.error {
+    background: rgba(255, 68, 68, 0.1);
+    border: 1px solid #ff4444;
+    color: #ff4444;
+    font-size: 1rem;
+}
+
+.concept-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.concept-box h2 {
+    color: #00ff88;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.concept-box p {
+    color: #aaa;
+    margin: 0.3rem 0;
+}
+
+.concept-box .real-use {
+    margin-top: 0.5rem;
+    color: #666;
+    font-style: italic;
+}
+
+.back-link {
+    display: inline-block;
+    color: #00d9ff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #00ff88;
+}

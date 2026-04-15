@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Operators:</strong> +, -, *, /</p>
+            <p><strong>Condition:</strong> if/else</p>
+            <p class="real-use">Real Life Use: Billing systems, calculators, shopping carts</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Simple Calculator</h1>
+            
+            <div class="input-group">
+                <input type="number" id="num1" placeholder="Enter first number">
+                <select id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">×</option>
+                    <option value="/">÷</option>
+                </select>
+                <input type="number" id="num2" placeholder="Enter second number">
+            </div>
+
+            <button onclick="calculate()">Calculate</button>
+            <button class="reset" onclick="resetCalculator()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

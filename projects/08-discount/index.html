@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Condition:</strong> Conditional pricing</p>
+            <p class="real-use">Real Life Use: E-commerce discounts, sales</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Discount Calculator</h1>
+            
+            <div class="input-group">
+                <input type="number" id="amount" placeholder="Enter purchase amount ($)">
+            </div>
+
+            <button onclick="calculateDiscount()">Calculate</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

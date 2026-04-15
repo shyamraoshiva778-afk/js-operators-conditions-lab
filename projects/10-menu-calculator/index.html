@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Calculator</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Condition:</strong> switch statement</p>
+            <p class="real-use">Real Life Use: Restaurant ordering, menu selection</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Menu Calculator</h1>
+            <div class="menu">
+                <div class="menu-item"><span>1. Pizza</span><span>$10</span></div>
+                <div class="menu-item"><span>2. Burger</span><span>$5</span></div>
+                <div class="menu-item"><span>3. Pasta</span><span>$8</span></div>
+                <div class="menu-item"><span>4. Salad</span><span>$4</span></div>
+                <div class="menu-item"><span>5. Drink</span><span>$2</span></div>
+            </div>
+            
+            <div class="input-group">
+                <select id="item">
+                    <option value="">Select an item</option>
+                    <option value="1">Pizza</option>
+                    <option value="2">Burger</option>
+                    <option value="3">Pasta</option>
+                    <option value="4">Salad</option>
+                    <option value="5">Drink</option>
+                </select>
+                <input type="number" id="quantity" placeholder="Quantity" min="1">
+            </div>
+
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

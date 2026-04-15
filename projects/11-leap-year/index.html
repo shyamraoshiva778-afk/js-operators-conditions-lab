@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">&larr; Back to Home</a>
+        
+        <div class="concept-box">
+            <h2>Concept Used</h2>
+            <p><strong>Logic:</strong> (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0</p>
+            <p class="real-use">Real Life Use: Calendar systems, date calculations</p>
+        </div>
+
+        <div class="project-box">
+            <h1>Leap Year Checker</h1>
+            
+            <div class="input-group">
+                <input type="number" id="year" placeholder="Enter a year">
+            </div>
+
+            <button onclick="checkLeapYear()">Check</button>
+            <button class="reset" onclick="resetChecker()">Reset</button>
+
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 *A playground where logic becomes visible*
 
+A beginner-friendly JavaScript learning lab focused on operators and conditional statements. Build 12 interactive mini projects with clean UI, real-world logic, and hands-on practice.
+
 ---
 
 ## 📌 What You'll Learn
